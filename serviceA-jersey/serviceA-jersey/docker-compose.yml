@@ -1,0 +1,20 @@
+name: 'book-store-microservices-app'
+services:
+  rest-db:
+    image: postgres:latest
+    container_name: rest_tp-db
+    environment:
+      - POSTGRES_USER=rest_user
+      - POSTGRES_PASSWORD=rest123
+      - POSTGRES_DB=rest_tp
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          memory: 500m
