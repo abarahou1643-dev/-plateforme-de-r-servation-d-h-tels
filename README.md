@@ -316,12 +316,18 @@ Pour des **applications de production** avec des exigences de performance, la **
 **Encadré par** :Mr.LACHGR mohammed
 **Réalisée par** :
 
-BARAHOU aicha
+
+ BARAHOU aicha
+   
 BENZIAT hana
+
 GHANIMI fatimazzahra
+
 DABACHINE jamila
+
 ---
 * Résultats complets disponibles dans le dossier `Etude de cas/`*  
 * Code source entièrement fonctionnel et documenté*
+
 
 
